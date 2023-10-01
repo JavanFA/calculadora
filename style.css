@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(107, 13, 107));
+    height: 96vh;
+    font-family:'Pixelify Sans', cursive;
+    color: white;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.699);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    padding: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.37);
+}
+
+#resultado {
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: right;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(31, 31, 31, 0.548);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.37);
+    border: none;
+    color: white;
+}
+
+.botao:hover {
+    background-color: rgb(107, 13, 107);
+}
+
+.zero {
+    width: 106px;
+}
+
+.igual {
+    height: 106px;
+    background-color: rgb(109, 109, 109);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}       
+
+footer a:hover{
+    text-decoration: underline;
+    color: rgb(107, 13, 107);
+}
